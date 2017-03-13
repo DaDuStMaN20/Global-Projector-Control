@@ -7,6 +7,8 @@
 //
 
 import Cocoa
+import PJ
+
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {

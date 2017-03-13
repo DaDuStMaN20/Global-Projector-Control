@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24BE770A8A2382B2958CC5BE /* Pods_Global_Projector_ControlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D8AC686A6781C2258226CF /* Pods_Global_Projector_ControlTests.framework */; };
+		3536C6AF56970601CA95A26F /* Pods_Global_Projector_Control.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89ABBB7329A84093191005C1 /* Pods_Global_Projector_Control.framework */; };
 		DA08993D1E774D1A008053F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA08993C1E774D1A008053F1 /* AppDelegate.swift */; };
 		DA08993F1E774D1A008053F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA08993E1E774D1A008053F1 /* ViewController.swift */; };
 		DA0899411E774D1A008053F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0899401E774D1A008053F1 /* Assets.xcassets */; };
 		DA0899441E774D1A008053F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0899421E774D1A008053F1 /* Main.storyboard */; };
 		DA08994F1E774D1B008053F1 /* Global_Projector_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA08994E1E774D1B008053F1 /* Global_Projector_ControlTests.swift */; };
+		DA08996F1E774E75008053F1 /* AFPJLinkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA08995B1E774E75008053F1 /* AFPJLinkClient.m */; };
+		DA0899701E774E75008053F1 /* AFPJLinkRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA08995D1E774E75008053F1 /* AFPJLinkRequestOperation.m */; };
+		DA0899711E774E75008053F1 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DA08995F1E774E75008053F1 /* NSString+Utils.m */; };
+		DA0899721E774E75008053F1 /* NSURL+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0899611E774E75008053F1 /* NSURL+Utils.m */; };
+		DA0899731E774E75008053F1 /* PJInputInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0899641E774E75008053F1 /* PJInputInfo.m */; };
+		DA0899741E774E75008053F1 /* PJLampStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0899661E774E75008053F1 /* PJLampStatus.m */; };
+		DA0899751E774E75008053F1 /* PJProjector.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0899681E774E75008053F1 /* PJProjector.m */; };
+		DA0899761E774E75008053F1 /* PJRequestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DA08996A1E774E75008053F1 /* PJRequestInfo.m */; };
+		DA0899771E774E75008053F1 /* PJResponseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DA08996C1E774E75008053F1 /* PJResponseInfo.m */; };
+		DA0899781E774E75008053F1 /* PJURLProtocolRunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = DA08996E1E774E75008053F1 /* PJURLProtocolRunLoop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		467CA81CEDC8F01365A48175 /* Pods-Global Projector Control.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Global Projector Control.release.xcconfig"; path = "Pods/Target Support Files/Pods-Global Projector Control/Pods-Global Projector Control.release.xcconfig"; sourceTree = "<group>"; };
+		52FF33CC2D144E6315DE3D68 /* Pods-Global Projector ControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Global Projector ControlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Global Projector ControlTests/Pods-Global Projector ControlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5749DAD9E77D5A002FB5A3FD /* Pods-Global Projector ControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Global Projector ControlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Global Projector ControlTests/Pods-Global Projector ControlTests.release.xcconfig"; sourceTree = "<group>"; };
+		89ABBB7329A84093191005C1 /* Pods_Global_Projector_Control.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Global_Projector_Control.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D8AC686A6781C2258226CF /* Pods_Global_Projector_ControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Global_Projector_ControlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0899391E774D1A008053F1 /* Global Projector Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Global Projector Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA08993C1E774D1A008053F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA08993E1E774D1A008053F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +51,29 @@
 		DA08994A1E774D1B008053F1 /* Global Projector ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Global Projector ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA08994E1E774D1B008053F1 /* Global_Projector_ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global_Projector_ControlTests.swift; sourceTree = "<group>"; };
 		DA0899501E774D1B008053F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA08995A1E774E75008053F1 /* AFPJLinkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPJLinkClient.h; sourceTree = "<group>"; };
+		DA08995B1E774E75008053F1 /* AFPJLinkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPJLinkClient.m; sourceTree = "<group>"; };
+		DA08995C1E774E75008053F1 /* AFPJLinkRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPJLinkRequestOperation.h; sourceTree = "<group>"; };
+		DA08995D1E774E75008053F1 /* AFPJLinkRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPJLinkRequestOperation.m; sourceTree = "<group>"; };
+		DA08995E1E774E75008053F1 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		DA08995F1E774E75008053F1 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		DA0899601E774E75008053F1 /* NSURL+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Utils.h"; sourceTree = "<group>"; };
+		DA0899611E774E75008053F1 /* NSURL+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Utils.m"; sourceTree = "<group>"; };
+		DA0899621E774E75008053F1 /* PJDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJDefinitions.h; sourceTree = "<group>"; };
+		DA0899631E774E75008053F1 /* PJInputInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJInputInfo.h; sourceTree = "<group>"; };
+		DA0899641E774E75008053F1 /* PJInputInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJInputInfo.m; sourceTree = "<group>"; };
+		DA0899651E774E75008053F1 /* PJLampStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJLampStatus.h; sourceTree = "<group>"; };
+		DA0899661E774E75008053F1 /* PJLampStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJLampStatus.m; sourceTree = "<group>"; };
+		DA0899671E774E75008053F1 /* PJProjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJProjector.h; sourceTree = "<group>"; };
+		DA0899681E774E75008053F1 /* PJProjector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJProjector.m; sourceTree = "<group>"; };
+		DA0899691E774E75008053F1 /* PJRequestInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJRequestInfo.h; sourceTree = "<group>"; };
+		DA08996A1E774E75008053F1 /* PJRequestInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJRequestInfo.m; sourceTree = "<group>"; };
+		DA08996B1E774E75008053F1 /* PJResponseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJResponseInfo.h; sourceTree = "<group>"; };
+		DA08996C1E774E75008053F1 /* PJResponseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJResponseInfo.m; sourceTree = "<group>"; };
+		DA08996D1E774E75008053F1 /* PJURLProtocolRunLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJURLProtocolRunLoop.h; sourceTree = "<group>"; };
+		DA08996E1E774E75008053F1 /* PJURLProtocolRunLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJURLProtocolRunLoop.m; sourceTree = "<group>"; };
+		DA7C0F3B1E77552900BFD756 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bridge.h; path = "Global Projector Control/bridge.h"; sourceTree = "<group>"; };
+		EE38EBB9FD9109BDE8D58BE2 /* Pods-Global Projector Control.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Global Projector Control.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Global Projector Control/Pods-Global Projector Control.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3536C6AF56970601CA95A26F /* Pods_Global_Projector_Control.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,18 +89,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24BE770A8A2382B2958CC5BE /* Pods_Global_Projector_ControlTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FC5AE53546B433E4B0DCEB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89ABBB7329A84093191005C1 /* Pods_Global_Projector_Control.framework */,
+				89D8AC686A6781C2258226CF /* Pods_Global_Projector_ControlTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DA0899301E774D1A008053F1 = {
 			isa = PBXGroup;
 			children = (
 				DA08993B1E774D1A008053F1 /* Global Projector Control */,
 				DA08994D1E774D1B008053F1 /* Global Projector ControlTests */,
+				DA7C0F3B1E77552900BFD756 /* bridge.h */,
 				DA08993A1E774D1A008053F1 /* Products */,
+				DF4D1473D933BF474C7DEB20 /* Pods */,
+				1FC5AE53546B433E4B0DCEB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +134,7 @@
 				DA0899401E774D1A008053F1 /* Assets.xcassets */,
 				DA0899421E774D1A008053F1 /* Main.storyboard */,
 				DA0899451E774D1A008053F1 /* Info.plist */,
+				DA0899591E774E75008053F1 /* PJLinkCocoa */,
 			);
 			path = "Global Projector Control";
 			sourceTree = "<group>";
@@ -93,6 +148,45 @@
 			path = "Global Projector ControlTests";
 			sourceTree = "<group>";
 		};
+		DA0899591E774E75008053F1 /* PJLinkCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				DA08995B1E774E75008053F1 /* AFPJLinkClient.m */,
+				DA08995A1E774E75008053F1 /* AFPJLinkClient.h */,
+				DA08995C1E774E75008053F1 /* AFPJLinkRequestOperation.h */,
+				DA08995D1E774E75008053F1 /* AFPJLinkRequestOperation.m */,
+				DA08995E1E774E75008053F1 /* NSString+Utils.h */,
+				DA08995F1E774E75008053F1 /* NSString+Utils.m */,
+				DA0899601E774E75008053F1 /* NSURL+Utils.h */,
+				DA0899611E774E75008053F1 /* NSURL+Utils.m */,
+				DA0899621E774E75008053F1 /* PJDefinitions.h */,
+				DA0899631E774E75008053F1 /* PJInputInfo.h */,
+				DA0899641E774E75008053F1 /* PJInputInfo.m */,
+				DA0899651E774E75008053F1 /* PJLampStatus.h */,
+				DA0899661E774E75008053F1 /* PJLampStatus.m */,
+				DA0899671E774E75008053F1 /* PJProjector.h */,
+				DA0899681E774E75008053F1 /* PJProjector.m */,
+				DA0899691E774E75008053F1 /* PJRequestInfo.h */,
+				DA08996A1E774E75008053F1 /* PJRequestInfo.m */,
+				DA08996B1E774E75008053F1 /* PJResponseInfo.h */,
+				DA08996C1E774E75008053F1 /* PJResponseInfo.m */,
+				DA08996E1E774E75008053F1 /* PJURLProtocolRunLoop.m */,
+				DA08996D1E774E75008053F1 /* PJURLProtocolRunLoop.h */,
+			);
+			path = PJLinkCocoa;
+			sourceTree = "<group>";
+		};
+		DF4D1473D933BF474C7DEB20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE38EBB9FD9109BDE8D58BE2 /* Pods-Global Projector Control.debug.xcconfig */,
+				467CA81CEDC8F01365A48175 /* Pods-Global Projector Control.release.xcconfig */,
+				52FF33CC2D144E6315DE3D68 /* Pods-Global Projector ControlTests.debug.xcconfig */,
+				5749DAD9E77D5A002FB5A3FD /* Pods-Global Projector ControlTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA0899531E774D1B008053F1 /* Build configuration list for PBXNativeTarget "Global Projector Control" */;
 			buildPhases = (
+				324A2D65F913F406C43E028A /* [CP] Check Pods Manifest.lock */,
 				DA0899351E774D1A008053F1 /* Sources */,
 				DA0899361E774D1A008053F1 /* Frameworks */,
 				DA0899371E774D1A008053F1 /* Resources */,
+				C4B6527D65737BD071A76469 /* [CP] Embed Pods Frameworks */,
+				F213A8DFAC637E049163C9AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -117,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA0899561E774D1B008053F1 /* Build configuration list for PBXNativeTarget "Global Projector ControlTests" */;
 			buildPhases = (
+				403F8583B9B791A737F653E9 /* [CP] Check Pods Manifest.lock */,
 				DA0899461E774D1B008053F1 /* Sources */,
 				DA0899471E774D1B008053F1 /* Frameworks */,
 				DA0899481E774D1B008053F1 /* Resources */,
+				B4D515B8CF3B27ED173F9F94 /* [CP] Embed Pods Frameworks */,
+				166D422F06A7C1A94C814FE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,13 +292,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		166D422F06A7C1A94C814FE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Global Projector ControlTests/Pods-Global Projector ControlTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		324A2D65F913F406C43E028A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		403F8583B9B791A737F653E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D515B8CF3B27ED173F9F94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Global Projector ControlTests/Pods-Global Projector ControlTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B6527D65737BD071A76469 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Global Projector Control/Pods-Global Projector Control-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F213A8DFAC637E049163C9AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Global Projector Control/Pods-Global Projector Control-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA0899351E774D1A008053F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0899751E774E75008053F1 /* PJProjector.m in Sources */,
 				DA08993F1E774D1A008053F1 /* ViewController.swift in Sources */,
+				DA0899741E774E75008053F1 /* PJLampStatus.m in Sources */,
+				DA0899731E774E75008053F1 /* PJInputInfo.m in Sources */,
 				DA08993D1E774D1A008053F1 /* AppDelegate.swift in Sources */,
+				DA0899711E774E75008053F1 /* NSString+Utils.m in Sources */,
+				DA0899701E774E75008053F1 /* AFPJLinkRequestOperation.m in Sources */,
+				DA0899721E774E75008053F1 /* NSURL+Utils.m in Sources */,
+				DA08996F1E774E75008053F1 /* AFPJLinkClient.m in Sources */,
+				DA0899761E774E75008053F1 /* PJRequestInfo.m in Sources */,
+				DA0899771E774E75008053F1 /* PJResponseInfo.m in Sources */,
+				DA0899781E774E75008053F1 /* PJURLProtocolRunLoop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +527,7 @@
 		};
 		DA0899541E774D1B008053F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE38EBB9FD9109BDE8D58BE2 /* Pods-Global Projector Control.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -338,6 +542,7 @@
 		};
 		DA0899551E774D1B008053F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467CA81CEDC8F01365A48175 /* Pods-Global Projector Control.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -352,6 +557,7 @@
 		};
 		DA0899571E774D1B008053F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FF33CC2D144E6315DE3D68 /* Pods-Global Projector ControlTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -368,6 +574,7 @@
 		};
 		DA0899581E774D1B008053F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5749DAD9E77D5A002FB5A3FD /* Pods-Global Projector ControlTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -401,6 +608,7 @@
 				DA0899551E774D1B008053F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA0899561E774D1B008053F1 /* Build configuration list for PBXNativeTarget "Global Projector ControlTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +617,7 @@
 				DA0899581E774D1B008053F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
