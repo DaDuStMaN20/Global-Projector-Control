@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA08993D1E774D1A008053F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA08993C1E774D1A008053F1 /* AppDelegate.swift */; };
+		DA08993F1E774D1A008053F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA08993E1E774D1A008053F1 /* ViewController.swift */; };
+		DA0899411E774D1A008053F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0899401E774D1A008053F1 /* Assets.xcassets */; };
+		DA0899441E774D1A008053F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0899421E774D1A008053F1 /* Main.storyboard */; };
+		DA08994F1E774D1B008053F1 /* Global_Projector_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA08994E1E774D1B008053F1 /* Global_Projector_ControlTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA08994B1E774D1B008053F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA0899311E774D1A008053F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0899381E774D1A008053F1;
+			remoteInfo = "Global Projector Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA0899391E774D1A008053F1 /* Global Projector Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Global Projector Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA08993C1E774D1A008053F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA08993E1E774D1A008053F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA0899401E774D1A008053F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA0899431E774D1A008053F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA0899451E774D1A008053F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA08994A1E774D1B008053F1 /* Global Projector ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Global Projector ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA08994E1E774D1B008053F1 /* Global_Projector_ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global_Projector_ControlTests.swift; sourceTree = "<group>"; };
+		DA0899501E774D1B008053F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA0899361E774D1A008053F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0899471E774D1B008053F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA0899301E774D1A008053F1 = {
+			isa = PBXGroup;
+			children = (
+				DA08993B1E774D1A008053F1 /* Global Projector Control */,
+				DA08994D1E774D1B008053F1 /* Global Projector ControlTests */,
+				DA08993A1E774D1A008053F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA08993A1E774D1A008053F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA0899391E774D1A008053F1 /* Global Projector Control.app */,
+				DA08994A1E774D1B008053F1 /* Global Projector ControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA08993B1E774D1A008053F1 /* Global Projector Control */ = {
+			isa = PBXGroup;
+			children = (
+				DA08993C1E774D1A008053F1 /* AppDelegate.swift */,
+				DA08993E1E774D1A008053F1 /* ViewController.swift */,
+				DA0899401E774D1A008053F1 /* Assets.xcassets */,
+				DA0899421E774D1A008053F1 /* Main.storyboard */,
+				DA0899451E774D1A008053F1 /* Info.plist */,
+			);
+			path = "Global Projector Control";
+			sourceTree = "<group>";
+		};
+		DA08994D1E774D1B008053F1 /* Global Projector ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA08994E1E774D1B008053F1 /* Global_Projector_ControlTests.swift */,
+				DA0899501E774D1B008053F1 /* Info.plist */,
+			);
+			path = "Global Projector ControlTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA0899381E774D1A008053F1 /* Global Projector Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0899531E774D1B008053F1 /* Build configuration list for PBXNativeTarget "Global Projector Control" */;
+			buildPhases = (
+				DA0899351E774D1A008053F1 /* Sources */,
+				DA0899361E774D1A008053F1 /* Frameworks */,
+				DA0899371E774D1A008053F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Global Projector Control";
+			productName = "Global Projector Control";
+			productReference = DA0899391E774D1A008053F1 /* Global Projector Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA0899491E774D1B008053F1 /* Global Projector ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0899561E774D1B008053F1 /* Build configuration list for PBXNativeTarget "Global Projector ControlTests" */;
+			buildPhases = (
+				DA0899461E774D1B008053F1 /* Sources */,
+				DA0899471E774D1B008053F1 /* Frameworks */,
+				DA0899481E774D1B008053F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA08994C1E774D1B008053F1 /* PBXTargetDependency */,
+			);
+			name = "Global Projector ControlTests";
+			productName = "Global Projector ControlTests";
+			productReference = DA08994A1E774D1B008053F1 /* Global Projector ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA0899311E774D1A008053F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Dustin Wasserman";
+				TargetAttributes = {
+					DA0899381E774D1A008053F1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7XYENDV88P;
+						ProvisioningStyle = Automatic;
+					};
+					DA0899491E774D1B008053F1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7XYENDV88P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA0899381E774D1A008053F1;
+					};
+				};
+			};
+			buildConfigurationList = DA0899341E774D1A008053F1 /* Build configuration list for PBXProject "Global Projector Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA0899301E774D1A008053F1;
+			productRefGroup = DA08993A1E774D1A008053F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA0899381E774D1A008053F1 /* Global Projector Control */,
+				DA0899491E774D1B008053F1 /* Global Projector ControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA0899371E774D1A008053F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0899411E774D1A008053F1 /* Assets.xcassets in Resources */,
+				DA0899441E774D1A008053F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0899481E774D1B008053F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA0899351E774D1A008053F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA08993F1E774D1A008053F1 /* ViewController.swift in Sources */,
+				DA08993D1E774D1A008053F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0899461E774D1B008053F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA08994F1E774D1B008053F1 /* Global_Projector_ControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA08994C1E774D1B008053F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA0899381E774D1A008053F1 /* Global Projector Control */;
+			targetProxy = DA08994B1E774D1B008053F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA0899421E774D1A008053F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA0899431E774D1A008053F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA0899511E774D1B008053F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA0899521E774D1B008053F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		DA0899541E774D1B008053F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7XYENDV88P;
+				INFOPLIST_FILE = "Global Projector Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dustin.Global-Projector-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DA0899551E774D1B008053F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7XYENDV88P;
+				INFOPLIST_FILE = "Global Projector Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dustin.Global-Projector-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DA0899571E774D1B008053F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7XYENDV88P;
+				INFOPLIST_FILE = "Global Projector ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dustin.Global-Projector-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Global Projector Control.app/Contents/MacOS/Global Projector Control";
+			};
+			name = Debug;
+		};
+		DA0899581E774D1B008053F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7XYENDV88P;
+				INFOPLIST_FILE = "Global Projector ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dustin.Global-Projector-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Global Projector Control.app/Contents/MacOS/Global Projector Control";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA0899341E774D1A008053F1 /* Build configuration list for PBXProject "Global Projector Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0899511E774D1B008053F1 /* Debug */,
+				DA0899521E774D1B008053F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA0899531E774D1B008053F1 /* Build configuration list for PBXNativeTarget "Global Projector Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0899541E774D1B008053F1 /* Debug */,
+				DA0899551E774D1B008053F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA0899561E774D1B008053F1 /* Build configuration list for PBXNativeTarget "Global Projector ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0899571E774D1B008053F1 /* Debug */,
+				DA0899581E774D1B008053F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA0899311E774D1A008053F1 /* Project object */;
+}
